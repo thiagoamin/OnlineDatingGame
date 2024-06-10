@@ -1,4 +1,5 @@
 # Romantic Interaction Strategic Model
+By: Thiago Amin and Michael Cui (for ECON 221)
 
 ## 1: Introduction
 
@@ -9,21 +10,21 @@ This model examines the interactions between two individuals, Alex and Taylor, w
 We model this scenario as a game with the following parameters and rules:
 
 1. **Players:**
-   - **Alex:** Interested in a physical relationship with Taylor, regardless of emotional feelings.
-   - **Taylor:** Interested in a physical relationship only if Alex demonstrates genuine emotional interest.
+   - **Alex:** interested in a physical relationship with Taylor, regardless of whether an emotional relationship occurs in the future.
+   - **Taylor:** interested in a physical relationship only if Alex is also interested in a emotional relationship.
 
 2. **Information:**
-   - **Private Information:** Each player knows their own feelings but not the feelings of the other player.
+   - **Private Information:** Each player knows their own feelings (whether they love the other person) but not the feelings of the other player.
    - **Public Actions:** Actions taken by each player (e.g., offering or accepting a gift) are observable.
 
 3. **Actions:**
-   - **Alex's Action:** Decide whether to offer a valuable gift to Taylor as a demonstration of genuine interest.
-   - **Taylor's Action:** Decide whether to accept the gift and consider a physical relationship based on perceived interest.
+   - **Alex's Action:** decide whether to offer a valuable gift to Taylor as a demonstration of genuine interest.
+   - **Taylor's Action:** decide whether to accept the gift (which also implies a physical relationship - simplifying assumption)
 
 4. **Payoffs:**
-   - If both players are in love, they will end up dating, regardless of physical relationship status.
-   - If only one or neither player is in love, they will not date.
-   - If Taylor accepts the gift and a physical relationship occurs, and Alex is in love while Taylor is not, Alex may feel hurt and ask for the gift back.
+   - Alex Loves Taylor, Taylor Loves Alex: they will end up dating, regardless of physical relationship status (whether Alex offered a gift, and Taylor accepted it).
+   - X Loves Y (but not vice-versa): if only one or neither player is in love, they will not date.
+   - If Taylor accepts the gift (physical relationship occurs), and Alex is in love while Taylor is not, Alex will feel hurt and ask for the gift back.
    - If they date, the cost of the gift decreases to $\frac{1}{3}c$, reflecting Alex's happiness with the relationship.
 
 ---
